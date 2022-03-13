@@ -1,0 +1,27 @@
+import java.util.*;
+
+
+
+public class CPL {
+    public static void main(String args[]){
+    System.out.print("enter the number");
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    
+    for(int i=1;i<=n;i++){
+        System.out.print(" ");
+        for(int j=1;j<=n-i;j++){
+            System.out.print(".");
+        }
+        // firsthalfkliye
+        for(int k=i;k>=1;k--){
+            System.out.print(k);
+        }
+        for(int j=2;j<=i;j++){
+            System.out.print(j);
+        }
+        System.out.println();
+    }
+
+     }
+}

@@ -1,0 +1,1 @@
+  cout<<"average waiting time ="<<avg[i];
